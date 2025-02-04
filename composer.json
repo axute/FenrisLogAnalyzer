@@ -1,0 +1,21 @@
+{
+  "name": "axute/fenrisloganalyzer",
+  "description": "Script to analyze the Diablo IV Fenris Logfiles",
+  "minimum-stability": "stable",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "axute",
+      "email": "github@axute.tech"
+    }
+  ],
+  "require": {
+    "php": "~8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fenris\\": "src/Fenris"
+    }
+  }
+}
